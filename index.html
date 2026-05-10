@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Notion Button</title>
+  <style>
+    body{
+      margin:0;
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background:transparent;
+      font-family:Inter, Arial, sans-serif;
+    }
+
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      padding:22px 38px;
+      font-size:28px;
+      font-weight:700;
+      text-decoration:none;
+      color:white;
+      border-radius:22px;
+      background:linear-gradient(135deg,#8b5cf6,#2563eb);
+      box-shadow:0 12px 30px rgba(37,99,235,.35);
+      transition:.2s ease;
+    }
+
+    .btn:hover{
+      transform:translateY(-2px);
+      box-shadow:0 18px 40px rgba(37,99,235,.45);
+    }
+
+    .btn:active{
+      transform:translateY(0);
+    }
+  </style>
+</head>
+<body>
+  <a class="btn" href="https://example.com" target="_blank" rel="noopener noreferrer">
+    Открыть сайт
+  </a>
+</body>
+</html>
